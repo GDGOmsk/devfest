@@ -1,3 +1,4 @@
+# Autoload helper modules
 helpers = []
 
 Dir['./helpers/*_helper.rb'].each do |h|
