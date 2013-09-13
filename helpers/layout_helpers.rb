@@ -1,4 +1,4 @@
-module LayoutHelper
+module LayoutHelpers
 
   def nav_link(title, link)
     nav_class = current_page.url == link ? 'active' : ''

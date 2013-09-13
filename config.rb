@@ -1,16 +1,3 @@
-# Autoload helper modules
-helpers = []
-
-Dir['./helpers/*_helper.rb'].each do |h|
-  require h
-  h.match(/\/(\w+).rb/) {|m| helpers << m[1].camelize.constantize }
-end
-
-#Methods defined in the helpers block are available in templates
-helpers do
-  helpers.each {|m| include m}
-end
-
 ###
 # Compass
 ###

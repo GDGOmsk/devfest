@@ -1,3 +1,0 @@
-module RoutingHelper
-
-end
