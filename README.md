@@ -1,4 +1,5 @@
-devfest
+DevFest
 =======
 
-Website for GDG DevFest 2013 Omsk
+[Website](http://gdgomsk.github.io/devfest/) for GDG DevFest Omsk 2013
+
