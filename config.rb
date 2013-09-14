@@ -49,7 +49,7 @@ configure :build do
   activate :asset_hash
 
   # Or use a different image path
-  # set :http_prefix, "/Content/images/"
+  set :http_prefix, '/devfest/images/'
 end
 
 # Reload the browser automatically whenever files change
