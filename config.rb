@@ -60,5 +60,5 @@ activate :directory_indexes
 
 # It's necessary because of this
 # https://github.com/neo/middleman-gh-pages#project-page-path-issues
-activate :relative_assets
-set :relative_links, true
+#activate :relative_assets
+#set :relative_links, true
