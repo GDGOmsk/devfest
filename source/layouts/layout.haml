@@ -1,0 +1,24 @@
+!!!
+%html
+  %head
+    %meta{charset: 'utf-8'}
+    %meta{content: 'IE=edge,chrome=1', 'http-equiv' => 'X-UA-Compatible'}
+
+    %title= yield_content(:title) || 'GDG Devfest Omsk 2013'
+
+    = stylesheet_link_tag 'application'
+    = javascript_include_tag 'application'
+
+  %body{class: page_classes}
+    .navbar.navbar-gdg
+      .container
+        .navbar-header
+          = link_to 'GDG Omsk', '/', class: 'navbar-brand'
+
+        .collapse.navbar-collapse.navbar-ex1-collapse
+          %ul.nav.navbar-nav.navbar-right
+            = nav_link 'Главная', '/'
+            = nav_link 'Программа', '/agenda/'
+
+    .container
+      = yield
