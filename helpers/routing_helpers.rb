@@ -1,5 +1,7 @@
 module RoutingHelpers
   # Here you can define the routes of your site
+  #
+  # Notice: any change requires server restart
   @routes = %w(index agenda)
 
   @routes.each do |method|
