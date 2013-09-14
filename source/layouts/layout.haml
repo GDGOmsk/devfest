@@ -14,14 +14,14 @@
     .navbar.navbar-gdg
       .container
         .navbar-header
-          = link_to '/', class: 'navbar-brand' do
+          = link_to index_path, class: 'navbar-brand' do
             %span.bolder GDG DevFest
             %span Omsk 2013
 
         .collapse.navbar-collapse.navbar-ex1-collapse
           %ul.nav.navbar-nav.navbar-right
-            = nav_link 'Главная', '/'
-            = nav_link 'Программа', '/agenda/'
+            = nav_link 'Главная', index_path
+            = nav_link 'Программа', agenda_path
 
     .container
       = yield
