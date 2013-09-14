@@ -59,3 +59,19 @@
     }
   }
 }
+
+.poster {
+  margin-right: 0;
+
+  > div {
+    position: relative;
+
+    .lead {
+      position: absolute;
+      bottom: 30px;
+      padding: 20px 150px;
+      color: #fff;
+      background: rgba(0, 0, 0, 0.75);
+    }
+  }
+}

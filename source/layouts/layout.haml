@@ -23,5 +23,7 @@
             = nav_link 'Главная', index_path
             = nav_link 'Программа', agenda_path
 
+    = yield_content(:poster)
+
     .container
       = yield
