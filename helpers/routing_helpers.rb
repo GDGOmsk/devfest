@@ -8,6 +8,11 @@ module RoutingHelpers
     define_method("#{method}_path") { page_path(method) }
   end
 
+  # Return where the current page is equal to specified link
+  def current_page?(link)
+    "#{page_url_prefix}/#{current_page.url}/" == link
+  end
+
   # Returns the url of specified page
   def page_path(page)
     if page != 'index'
