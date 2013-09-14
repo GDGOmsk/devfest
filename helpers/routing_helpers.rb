@@ -30,7 +30,7 @@ module RoutingHelpers
     if development?
       ''
     else
-      '/devfest'
+      ''
     end
   end
 end
