@@ -10,7 +10,7 @@ module RoutingHelpers
 
   # Return where the current page is equal to specified link
   def current_page?(link)
-    "#{page_url_prefix}/#{current_page.url}/" == link
+    "#{page_url_prefix}#{current_page.url}" == link
   end
 
   # Returns the url of specified page
