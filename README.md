@@ -1,7 +1,9 @@
 DevFest
 =======
 
-[Website](http://gdgomsk.github.io/devfest/) for GDG DevFest Omsk 2013
+Initial template of the site that might be used for presenting of GDG DevFest Omsk 2013
+
+[Preview](http://gdgomsk.github.io/devfest/)
 
 Inspired by
 -----------
